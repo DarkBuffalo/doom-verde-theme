@@ -1,0 +1,25 @@
+#+title: doom-verde-theme
+
+
+* verde Emacs Theme
+
+This theme is not finished and work in progress.
+
+#+caption: Orgmode
+#+attr_latex: :width 300px
+[[file:img/Capture0.png]]
+
+#+caption: Orderless
+#+attr_latex: :width 300px
+[[file:img/Capture1.png]]
+
+* Install
+Put the verde-theme inside your =/.doom.d/themes/= or =.emacs.d/themes/= and then add the following line to your config.el:
+
+#+begin_src emacs-lisp
+(use-package doom-themes
+	:init
+	(setq doom-theme 'doom-verde
+	 ;; the rest of your config ...
+	 ))
+#+end_src
